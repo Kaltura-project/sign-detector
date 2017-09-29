@@ -1,99 +1,99 @@
-./Stop Sign Dataset/positives/11.jpg
-./Stop Sign Dataset/positives/38.jpg
-./Stop Sign Dataset/positives/41.jpg
-./Stop Sign Dataset/positives/84.jpg
-./Stop Sign Dataset/positives/88.jpg
-./Stop Sign Dataset/positives/96.jpg
-./Stop Sign Dataset/positives/54.jpg
-./Stop Sign Dataset/positives/4.jpg
-./Stop Sign Dataset/positives/57.jpg
-./Stop Sign Dataset/positives/9.jpg
-./Stop Sign Dataset/positives/23.jpg
-./Stop Sign Dataset/positives/45.jpg
-./Stop Sign Dataset/positives/13.jpg
-./Stop Sign Dataset/positives/48.jpg
-./Stop Sign Dataset/positives/75.jpg
-./Stop Sign Dataset/positives/8.jpg
-./Stop Sign Dataset/positives/21.jpg
-./Stop Sign Dataset/positives/31.jpg
-./Stop Sign Dataset/positives/56.jpg
-./Stop Sign Dataset/positives/92.jpg
-./Stop Sign Dataset/positives/10.jpg
-./Stop Sign Dataset/positives/46.jpg
-./Stop Sign Dataset/positives/58.jpg
-./Stop Sign Dataset/positives/27.jpg
-./Stop Sign Dataset/positives/78.jpg
-./Stop Sign Dataset/positives/15.jpg
-./Stop Sign Dataset/positives/91.jpg
-./Stop Sign Dataset/positives/36.jpg
-./Stop Sign Dataset/positives/79.jpg
-./Stop Sign Dataset/positives/26.jpg
-./Stop Sign Dataset/positives/83.jpg
-./Stop Sign Dataset/positives/681.jpg
-./Stop Sign Dataset/positives/14.jpg
-./Stop Sign Dataset/positives/22.jpg
-./Stop Sign Dataset/positives/28.jpg
-./Stop Sign Dataset/positives/63.jpg
-./Stop Sign Dataset/positives/16.jpg
-./Stop Sign Dataset/positives/70.jpg
-./Stop Sign Dataset/positives/90.jpg
-./Stop Sign Dataset/positives/67.jpg
-./Stop Sign Dataset/positives/20.jpg
-./Stop Sign Dataset/positives/911.jpg
-./Stop Sign Dataset/positives/51.jpg
-./Stop Sign Dataset/positives/18.jpg
-./Stop Sign Dataset/positives/98.jpg
-./Stop Sign Dataset/positives/95.jpg
-./Stop Sign Dataset/positives/71.jpg
-./Stop Sign Dataset/positives/44.jpg
-./Stop Sign Dataset/positives/59.jpg
-./Stop Sign Dataset/positives/5.jpg
-./Stop Sign Dataset/positives/64.jpg
-./Stop Sign Dataset/positives/3.jpg
-./Stop Sign Dataset/positives/24.jpg
-./Stop Sign Dataset/positives/62.jpg
-./Stop Sign Dataset/positives/19.jpg
-./Stop Sign Dataset/positives/68.jpg
-./Stop Sign Dataset/positives/37.jpg
-./Stop Sign Dataset/positives/52.jpg
-./Stop Sign Dataset/positives/12.jpg
-./Stop Sign Dataset/positives/50.jpg
-./Stop Sign Dataset/positives/94.jpg
-./Stop Sign Dataset/positives/72.jpg
-./Stop Sign Dataset/positives/76.jpg
-./Stop Sign Dataset/positives/29.jpg
-./Stop Sign Dataset/positives/39.jpg
-./Stop Sign Dataset/positives/99.jpg
-./Stop Sign Dataset/positives/73.jpg
-./Stop Sign Dataset/positives/87.jpg
-./Stop Sign Dataset/positives/100.jpg
-./Stop Sign Dataset/positives/55.jpg
-./Stop Sign Dataset/positives/49.jpg
-./Stop Sign Dataset/positives/65.jpg
-./Stop Sign Dataset/positives/60.jpg
-./Stop Sign Dataset/positives/6.jpg
-./Stop Sign Dataset/positives/30.jpg
-./Stop Sign Dataset/positives/53.jpg
-./Stop Sign Dataset/positives/69.jpg
-./Stop Sign Dataset/positives/1.jpg
-./Stop Sign Dataset/positives/85.jpg
-./Stop Sign Dataset/positives/32.jpg
-./Stop Sign Dataset/positives/74.jpg
-./Stop Sign Dataset/positives/97.jpg
-./Stop Sign Dataset/positives/93.jpg
-./Stop Sign Dataset/positives/25.jpg
-./Stop Sign Dataset/positives/86.jpg
-./Stop Sign Dataset/positives/47.jpg
-./Stop Sign Dataset/positives/17.jpg
-./Stop Sign Dataset/positives/61.jpg
-./Stop Sign Dataset/positives/33.jpg
-./Stop Sign Dataset/positives/66.jpg
-./Stop Sign Dataset/positives/2.jpg
-./Stop Sign Dataset/positives/77.jpg
-./Stop Sign Dataset/positives/42.jpg
-./Stop Sign Dataset/positives/89.jpg
-./Stop Sign Dataset/positives/40.jpg
-./Stop Sign Dataset/positives/43.jpg
-./Stop Sign Dataset/positives/80.jpg
-./Stop Sign Dataset/positives/82.jpg
-./Stop Sign Dataset/positives/81.jpg
+./StopSignDataset/positives/11.jpg
+./StopSignDataset/positives/38.jpg
+./StopSignDataset/positives/41.jpg
+./StopSignDataset/positives/84.jpg
+./StopSignDataset/positives/88.jpg
+./StopSignDataset/positives/96.jpg
+./StopSignDataset/positives/54.jpg
+./StopSignDataset/positives/4.jpg
+./StopSignDataset/positives/57.jpg
+./StopSignDataset/positives/9.jpg
+./StopSignDataset/positives/23.jpg
+./StopSignDataset/positives/45.jpg
+./StopSignDataset/positives/13.jpg
+./StopSignDataset/positives/48.jpg
+./StopSignDataset/positives/75.jpg
+./StopSignDataset/positives/8.jpg
+./StopSignDataset/positives/21.jpg
+./StopSignDataset/positives/31.jpg
+./StopSignDataset/positives/56.jpg
+./StopSignDataset/positives/92.jpg
+./StopSignDataset/positives/10.jpg
+./StopSignDataset/positives/46.jpg
+./StopSignDataset/positives/58.jpg
+./StopSignDataset/positives/27.jpg
+./StopSignDataset/positives/78.jpg
+./StopSignDataset/positives/15.jpg
+./StopSignDataset/positives/91.jpg
+./StopSignDataset/positives/36.jpg
+./StopSignDataset/positives/79.jpg
+./StopSignDataset/positives/26.jpg
+./StopSignDataset/positives/83.jpg
+./StopSignDataset/positives/681.jpg
+./StopSignDataset/positives/14.jpg
+./StopSignDataset/positives/22.jpg
+./StopSignDataset/positives/28.jpg
+./StopSignDataset/positives/63.jpg
+./StopSignDataset/positives/16.jpg
+./StopSignDataset/positives/70.jpg
+./StopSignDataset/positives/90.jpg
+./StopSignDataset/positives/67.jpg
+./StopSignDataset/positives/20.jpg
+./StopSignDataset/positives/911.jpg
+./StopSignDataset/positives/51.jpg
+./StopSignDataset/positives/18.jpg
+./StopSignDataset/positives/98.jpg
+./StopSignDataset/positives/95.jpg
+./StopSignDataset/positives/71.jpg
+./StopSignDataset/positives/44.jpg
+./StopSignDataset/positives/59.jpg
+./StopSignDataset/positives/5.jpg
+./StopSignDataset/positives/64.jpg
+./StopSignDataset/positives/3.jpg
+./StopSignDataset/positives/24.jpg
+./StopSignDataset/positives/62.jpg
+./StopSignDataset/positives/19.jpg
+./StopSignDataset/positives/68.jpg
+./StopSignDataset/positives/37.jpg
+./StopSignDataset/positives/52.jpg
+./StopSignDataset/positives/12.jpg
+./StopSignDataset/positives/50.jpg
+./StopSignDataset/positives/94.jpg
+./StopSignDataset/positives/72.jpg
+./StopSignDataset/positives/76.jpg
+./StopSignDataset/positives/29.jpg
+./StopSignDataset/positives/39.jpg
+./StopSignDataset/positives/99.jpg
+./StopSignDataset/positives/73.jpg
+./StopSignDataset/positives/87.jpg
+./StopSignDataset/positives/100.jpg
+./StopSignDataset/positives/55.jpg
+./StopSignDataset/positives/49.jpg
+./StopSignDataset/positives/65.jpg
+./StopSignDataset/positives/60.jpg
+./StopSignDataset/positives/6.jpg
+./StopSignDataset/positives/30.jpg
+./StopSignDataset/positives/53.jpg
+./StopSignDataset/positives/69.jpg
+./StopSignDataset/positives/1.jpg
+./StopSignDataset/positives/85.jpg
+./StopSignDataset/positives/32.jpg
+./StopSignDataset/positives/74.jpg
+./StopSignDataset/positives/97.jpg
+./StopSignDataset/positives/93.jpg
+./StopSignDataset/positives/25.jpg
+./StopSignDataset/positives/86.jpg
+./StopSignDataset/positives/47.jpg
+./StopSignDataset/positives/17.jpg
+./StopSignDataset/positives/61.jpg
+./StopSignDataset/positives/33.jpg
+./StopSignDataset/positives/66.jpg
+./StopSignDataset/positives/2.jpg
+./StopSignDataset/positives/77.jpg
+./StopSignDataset/positives/42.jpg
+./StopSignDataset/positives/89.jpg
+./StopSignDataset/positives/40.jpg
+./StopSignDataset/positives/43.jpg
+./StopSignDataset/positives/80.jpg
+./StopSignDataset/positives/82.jpg
+./StopSignDataset/positives/81.jpg

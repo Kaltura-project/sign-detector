@@ -1,18 +1,34 @@
 #!/usr/bin/env python3
 
+import sys
+from queue import PriorityQueue
 import cv2
 import numpy as np
 
 sign_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
 
-img = cv2.imread('test.jpg')
+img = cv2.imread(sys.argv[1])
+numrec = int(sys.argv[2])
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 signs = sign_cascade.detectMultiScale(gray, 1.1, 5)
-print(signs)
-for sign in range(np.size(signs, 0)):
-    x_pos, y_pos, width, height = signs[sign]
-    cv2.imwrite(str(sign) + ".png", img[sign[0]:sign[0] + sign[2] + sign[1], sign[1] + sign[3]])
+print(len(signs), "signs detected.")
+
+q = PriorityQueue()
+
+for sign in signs:
+    x_pos, y_pos, width, height = sign
+    area = width * height
+    q.put((-area, (x_pos, y_pos), (x_pos + width, y_pos + height)))
+
+if(len(signs) < numrec):
+    numrec = len(signs)
+
+for x in range(numrec):
+    rec = q.get()
+    cv2.rectangle(img, rec[1], rec[2], (255, 0, 0), 4)
+
+cv2.imwrite("testrec.png", img)
 
 
 cv2.destroyAllWindows()

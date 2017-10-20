@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>country road with stop sign</caption>
+  <note>country road with stop sign under a cloudy sky</note>
+  <place/>
+  <categories>
+    <category value="stop"/>
+    <category value="sign"/>
+    <category value="signal"/>
+    <category value="alt"/>
+    <category value="country"/>
+    <category value="road"/>
+    <category value="street"/>
+    <category value="route"/>
+    <category value="way"/>
+    <category value="asphalt"/>
+    <category value="blacktop"/>
+    <category value="grey"/>
+    <category value="gray"/>
+    <category value="vegetation"/>
+    <category value="nobody"/>
+    <category value="sky"/>
+    <category value="cloud"/>
+    <category value="cloudy"/>
+    <category value="vibrant"/>
+    <category value="scenic"/>
+    <category value="scene"/>
+    <category value="scenery"/>
+    <category value="signage"/>
+    <category value="drive"/>
+    <category value="travel"/>
+    <category value="stop sign"/>
+    <category value="driving"/>
+    <category value="directional"/>
+    <category value="highway"/>
+    <category value="symbol"/>
+    <category value="vehicle"/>
+  </categories>
+</comment>

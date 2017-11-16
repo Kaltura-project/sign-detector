@@ -4,53 +4,56 @@ from multiprocessing import Process, Queue
 from queue import PriorityQueue
 import cv2
 import numpy as np
+# import time
 
-CAPTURE_SOURCE = "test_footage.mp4"
-sign_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
-
-
-def detection_worker(w_input, w_output):
-    try:
-        while True:
-            frame = w_input.get()
-            if isinstance(frame, type(None)):
-                break
-            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            signs = sign_cascade.detectMultiScale(gray, 1.1, 5)
-
-            ret = [len(signs)]
-            for sign in signs:
-                x_pos, y_pos, width, height = sign
-                ret.append(((x_pos, y_pos), (x_pos + width, y_pos + height)))
-            print(len(signs))
-            w_output.put(ret)
-
-    except KeyboardInterrupt:
-        pass
+CAPTURE_SOURCE = "./test_footage3.mp4"
+sign_cascade = cv2.CascadeClassifier("classifier3/cascade.xml")
 
 
 def sign_detect():
     try:
-        worker_input = Queue()
-        worker_output = Queue()
-
-        detector = Process(target=detection_worker, args=(
-            worker_input, worker_output))
-        detector.start()
-
         cap = cv2.VideoCapture(CAPTURE_SOURCE)
+        fourcc = cv2.VideoWriter_fourcc(*'XVID')
+        out = cv2.VideoWriter('output3.avi', fourcc, 30, (1280, 720))
+
         dim = None
+        counter = 0
+
+        myrec = []
 
         while cap.isOpened():
+            counter += 1
             ret, frame = cap.read()
-            worker_input.put(frame)
+            h, w, l = frame.shape
+            # frame = cv2.resize(frame, (0, 0), fx=1.5, fy=1.5)
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-            if not worker_output.empty():
-                dim = worker_output.get()
-                print(dim)
-                for x in range(dim[0]):
-                    cv2.rectangle(frame, dim[x + 1][0], dim[x + 1][1], (255, 0, 0), 4)
+            if(counter % 10 == 0):
+                myrec = []
+            # start = Time.time()
+            # print("Begin detection cycle: ", Time.time())
+            if(counter % 5 == 0):
+                signs = sign_cascade.detectMultiScale(gray, 1.1, 5)
+                signarea = 0
+                msign = -1
+                for sign in range(len(signs)):
+                    print("SIGN DETECTED: ", signs[sign])
+                    area = signs[sign][2] * signs[sign][3]
+                    print("ROI: ", area)
+                    if(area > signarea):
+                        signarea = area
+                        msign = sign
+                if(msign != -1):
+                    print("EIGENSIGN: ", signs[msign])
+                    x_pos, y_pos, width, height = signs[msign]
+                    square_x = x_pos + int((width - height) / 2)
+                    myrec = [(square_x, y_pos), (square_x +
+                                                 height, y_pos + height)]
+                # print("Detection cycle over: ", Time.time())
+            if(myrec != []):
+                cv2.rectangle(frame, myrec[0], myrec[1], (255, 0, 0), 4)
 
+            out.write(frame)
             cv2.imshow("frame", frame)
             cv2.waitKey(1)
 
@@ -58,8 +61,7 @@ def sign_detect():
         pass
     finally:
         cv2.destroyAllWindows()
-        worker_input.put(None)
-        detector.join()
+        out.release()
         cap.release()
 
 if __name__ == "__main__":
